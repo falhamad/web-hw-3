@@ -1,0 +1,79 @@
+html{
+height: 100%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(https://m.media-amazon.com/images/S/abs-image-upload-na/6/AmazonStores/ATVPDKIKX0DER/854f8daa354bf041813f4afad92f67f9.w4000.h2250.jpg);
+    background-size: cover;
+}
+
+.title {
+text-align: center;
+font-size: 70px;
+background-color: lightsteelblue; opacity: 70%; margin-top: 20px; 
+animation-name: example;
+  animation-duration: 4s;
+width: 100%;
+border-radius: 15px;
+margin: 0%;
+}
+
+@keyframes example {
+  from {background-color:lightsteelblue;}
+  to {background-color: lightsalmon;}
+}
+
+.description {
+text-align: center;
+background-color:lightpink; opacity: 60%;
+animation-name: example;
+  animation-duration: 4s;
+width: 100%;
+border-radius: 15px;
+font-weight: bold;
+} 
+
+@keyframes example {
+  from {background-color:lightpink;}
+  to {background-color: lightgoldenrodyellow}
+}
+
+.top{
+display:block;
+flex-direction: column;
+width: 100%;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.dishes {
+    background-color: rgb(255, 255, 255); opacity: 78%;
+    height: 600px;
+    width: 800px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.breakfast-title {
+  text-align: center;
+  margin-top: 0%;
+  }
+
+.pics {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 70px;
+  margin: 10px;
+}
+
+.pics > div {
+  width: 70px;
+  margin: 40px;
+  line-height: 75px;
+}
